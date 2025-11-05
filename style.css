@@ -1,0 +1,61 @@
+body {
+  background-color: #0d1117;
+  color: #00ff9d;
+  font-family: "Consolas", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.container {
+  background-color: #161b22;
+  border-radius: 12px;
+  padding: 25px;
+  width: 600px;
+  box-shadow: 0 0 10px #00ff9d44;
+}
+
+h1 {
+  text-align: center;
+  color: #00e676;
+}
+
+.input-group label {
+  display: block;
+  margin-top: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  background: #0d1117;
+  border: 1px solid #00ff9d55;
+  color: #00ff9d;
+  border-radius: 6px;
+}
+
+button {
+  background: #00e676;
+  color: #0d1117;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.console {
+  background-color: #000000;
+  border: 1px solid #00ff9d55;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+  height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  font-size: 15px;
+}

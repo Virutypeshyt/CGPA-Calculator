@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade & CGPA Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 Marks & CGPA Calculator</h1>
+    <p>Enter your internal marks (out of 60 for core, out of 100 for APP/UHV):</p>
+
+    <div class="input-group">
+      <label>Math:</label><input id="Math" type="number">
+      <label>DSA:</label><input id="DSA" type="number">
+      <label>OS:</label><input id="OS" type="number">
+      <label>COA:</label><input id="COA" type="number">
+      <label>APP (out of 100):</label><input id="APP" type="number">
+      <label>UHV (out of 100):</label><input id="UHV" type="number">
+    </div>
+
+    <button id="calcBtn">Calculate</button>
+
+    
+    <div id="console" class="console"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
